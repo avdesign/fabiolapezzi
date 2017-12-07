@@ -1,0 +1,215 @@
+/* 3.5 MAIN NAVIGATION
+   ========================================================================== */
+.jas-menu li {
+    font-size: 14px;
+    list-style: none;
+    position: relative;
+}
+.jas-menu > li {
+    float: left;
+}
+.jas-menu > li:not(:first-child) {
+    margin-left: 50px;
+}
+.jas-menu > li > a {
+    color: #4d5959;
+    line-height: 80px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: relative;
+}
+.header-sticky.header-2 .jas-menu > li > a,
+.header-sticky.header-3 .jas-menu > li > a,
+.header-sticky.header-4 .jas-menu > li > a {
+    line-height: 56px;
+}
+.header-sticky.header-5 .jas-menu > li > a {
+    line-height: 50px;
+}
+.header-5 .jas-menu > li > a {
+    line-height: 50px;
+}
+.header-6 .jas-menu > li > a {
+    line-height: 50px;
+    color: #fff;
+}
+.jas-menu li a:hover,
+.jas-menu li.current-menu-ancestor > a,
+.jas-menu li.current-menu-item > a {
+    color: #b59677;
+}
+.jas-menu li.hot > a:after,
+.jas-menu li.sale > a:after,
+.jas-menu li.new > a:after {
+    position: absolute;
+    color: #fff;
+    font-size: 9px;
+    padding: 0 8px;
+    border-radius: 50px;
+    right: -28px;
+    top: -10px;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+.jas-menu ul li.hot > a:after,
+.jas-menu ul li.sale > a:after,
+.jas-menu ul li.new > a:after {
+    right: 15px;
+    top: 10px;
+}
+.jas-menu li.hot > a:after {
+    content: 'HOT';
+    background: #ff3e11;
+}
+.jas-menu li.sale > a:after {
+    content: 'SALE';
+    background: #ffa800;
+}
+.jas-menu li.new > a:after {
+    content: 'NEW';
+    background: #01bad4;
+}
+.jas-menu ul {
+    position: absolute;
+    width: 270px;
+    background: #3e3e3e;
+    top: 120%;
+    opacity: 0;
+    visibility: hidden;
+    left: calc(50% - 135px);
+    transition: all .3s;
+    text-align: center;
+    z-index: 11;
+    padding: 0;
+}
+.jas-menu li:hover > ul {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+.jas-menu ul li:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+.jas-menu ul a {
+    color: #fff;
+    padding: 12px 20px;
+    display: block;
+}
+.jas-menu ul ul {
+    left: 270px;
+    top: 40%;
+}
+.jas-menu ul li:hover > ul {
+    top: 0;
+}
+.jas-menu .rtl-menu {
+    left: -270px;
+}
+/* 3.6 MOBILE MENU
+   ========================================================================== */
+#jas-mobile-menu,
+#jas-mobile-menu ul,
+#jas-mobile-menu ul li,
+#jas-mobile-menu ul li a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 32px;
+    display: block;
+    position: relative;
+    text-align: left;
+}
+#jas-mobile-menu {
+    padding: 25px 20px;
+}
+#jas-mobile-menu {
+    padding: 25px 20px;
+}
+#jas-mobile-menu ul ul {
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+    top: 0;
+    padding-left: 15px;
+}
+#jas-mobile-menu ul li a {
+    cursor: pointer;
+    z-index: 2;
+    padding: 5px 0;
+    color: #4d5959;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+#jas-mobile-menu > ul > li > a:before {
+    display: none;
+}
+.holder {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 5px;
+    right: -10px;
+    z-index: 10;
+    cursor: pointer;
+    color: #4d5959;
+    transition: all .3s;
+}
+#jas-mobile-menu ul > li:hover > a,
+#jas-mobile-menu ul > li.current-menu-item > a,
+#jas-mobile-menu ul > li.current-menu-parent > a,
+#jas-mobile-menu ul > li.current-menu-ancestor > a,
+#jas-mobile-menu ul > li:hover > .holder,
+#jas-mobile-menu ul > li.current-menu-item > .holder,
+#jas-mobile-menu ul > li.current-menu-parent  > .holder,
+#jas-mobile-menu ul > li.current-menu-ancestor > .holder  {
+    color: #b59677;
+}
+#jas-mobile-menu ul > li:hover > a {
+    padding-left: 5px;
+}
+.holder:after,
+.holder:before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 13px;
+    height: 13px;
+    right: 10px;
+    z-index: 10;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.holder:after {
+    top: 12px;
+    right: 16px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    width: 1px;
+}
+.holder::before {
+    top: 18px;
+    height: 1px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-top-color: inherit;
+    border-left-color: inherit;
+    transition: all .3s;
+}
+#jas-mobile-menu ul li.open > .holder:before {
+    opacity: 0;
+    visibility: hidden;
+}
+nav.main-menu #jas-mobile-menu ul ul:after {
+    display: none;
+}
+#jas-mobile-menu ul ul li a {
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 2px;
+}

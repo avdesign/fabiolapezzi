@@ -1,0 +1,94 @@
+.ypop-header {
+    background-position: center center;
+}
+
+.ypop-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 25px 40px 0;
+}
+
+.ypop-checkzone {
+    padding: 9px 8px 6px;
+}
+
+.ypop-content h3 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.ypop-wrapper button {
+    width: 100%;
+}
+
+.ypop-modal .ypop-wrapper a.close {
+    background-color: rgba(255, 255, 255, 0.8);
+    background-image: none;
+}
+
+.ypop-modal .ypop-wrapper a.close:after {
+    content: '\e680';
+    top: 0;
+    right: -2px;
+    position: absolute;
+    font-family: 'Pe-icon-7-stroke';
+    color: #3e3e3e;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+
+
+
+.ypop-overlay {
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.ypop-wrapper {
+    width: 550px;
+    height: auto;
+    padding: 10px;
+}
+
+.ypop-container-inner {
+    background-color: #ffffff;
+}
+
+.ypop-header {
+    height: 150px;
+}
+
+.ypop-title {
+    color: #ffffff;
+}
+
+.ypop-wrapper button,
+.ypop-content-type .contact-form input[type=submit] {
+    background-image: none;
+    background-color: #24d2d8;
+    color: #ffffff
+}
+
+.ypop-wrapper button:hover,
+.ypop-wrapper button:active,
+.ypop-content-type .contact-form input[type=submit]:hover,
+.ypop-content-type .contact-form input[type=submit]:active {
+    background-color: #0ad1d8;
+}
+
+.ypop-footer {
+    background-color: #f4f4f4;
+}
+
+.ypop-wrapper a.close {
+    background-image: url(../images/close1.png);
+    background-color: #ff8a00;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.ypop-checkzone {
+    background-color: transparent;
+    color: #333333;
+}

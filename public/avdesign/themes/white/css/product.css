@@ -1,0 +1,309 @@
+jas-branding {
+    max-width: 200px;
+    margin: auto;
+}
+
+.jas-wc .page-head,
+.jas-wc-single .page-head {
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-attachment: scroll;
+}
+
+.jas-portfolio .page-head {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+}
+
+body,
+.jas-menu > li > a,
+.f__pop {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+    color: #878787
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.f__pop {
+    font-family: "Poppins";
+    font-weight: 600
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #222
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 21px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+a:hover,
+a:active,
+.cp,
+.chp:hover,
+.inside-thumb a:hover,
+.jas-blog-slider .post-thumbnail > div a:hover,
+.shop-top-sidebar .product-categories li.current-cat a,
+.quantity .qty a:hover,
+.cart .yith-wcwl-add-to-wishlist a:hover,
+.woocommerce-MyAccount-navigation ul li:hover a,
+.woocommerce-MyAccount-navigation ul li.is-active a {
+    color: #56cfe1;
+}
+
+input[type="submit"]:hover,
+button:hover,
+a.button:hover,
+.jas-ajax-load a:hover,
+.widget .tagcloud a:hover,
+.jas-ajax-load a:hover,
+.cart .yith-wcwl-add-to-wishlist:hover,
+.p-video a:hover {
+    border-color: #56cfe1;
+}
+
+input[type="submit"]:hover,
+button:hover,
+a.button:hover,
+.jas-ajax-load a:hover,
+.bgp,
+.bghp:hover,
+.signup-newsletter-form input.submit-btn:hover,
+.widget .tagcloud a:hover,
+.widget_price_filter .ui-slider-range,
+.widget_price_filter .ui-state-default,
+.jas-mini-cart .checkout,
+.jas-ajax-load a:hover,
+.metaslider .flexslider .flex-prev,
+.metaslider .flexslider .flex-next,
+.single_add_to_cart_button,
+.jas_wcpb_add_to_cart.single_add_to_cart_button,
+.jas-service[class*="icon-"] .icon:before {
+    background-color: #56cfe1;
+}
+.bghp:focus{
+    color: #494949;
+}
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input[type="submit"],
+button,
+a.button,
+.jas-ajax-load a,
+.cd,
+.wp-caption-text,
+#jas-header .jas-social a,
+#jas-backtop:hover span i,
+.page-numbers li,
+.page-numbers li a,
+.jas-portfolio-single .portfolio-meta span,
+.sidebar .widget ul li:before,
+.widget ul.product_list_widget li a span.product-title,
+.widget .tagcloud a,
+.filter-trigger:hover,
+.filter-trigger:focus,
+.jas-mini-cart .mini_cart_item a:nth-child(2),
+.btn-atc .yith-wcwl-add-to-wishlist .ajax-loading,
+.product-category h3,
+.quantity input.input-text[type="number"],
+.cart .yith-wcwl-add-to-wishlist a,
+.wc-tabs li.active a,
+.wc-tabs li a:hover,
+.shop_table th,
+.order-total,
+.order-total td,
+.woocommerce-MyAccount-navigation ul li a,
+.jas-filter a.selected,
+.jas-filter a:hover,
+.jas-row .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab > a:focus,
+.jas-row .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab > a:hover,
+.jas-row .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab.vc_active > a,
+.metaslider .flexslider .caption-wrap h2,
+.metaslider .flexslider .caption-wrap h3,
+.metaslider .flexslider .caption-wrap h4,
+.jas-menu ul li:hover > a,
+#jas-mobile-menu ul li a,
+.holder {
+    color: #222;
+}
+
+input:not([type="submit"]):not([type="checkbox"]):focus,
+textarea:focus,
+.error-404.not-found a,
+.more-link,
+.widget .tagcloud a,
+.widget .woocommerce-product-search,
+.widget .search-form,
+.woocommerce .widget_layered_nav ul.yith-wcan-label li a:hover,
+.woocommerce-page .widget_layered_nav ul.yith-wcan-label li a:hover,
+.woocommerce .widget_layered_nav ul.yith-wcan-label li.chosen a,
+.woocommerce-page .widget_layered_nav ul.yith-wcan-label li.chosen a,
+.jas-ajax-load a,
+form .quantity,
+.quantity input.input-text[type="number"]:focus,
+.cart .yith-wcwl-add-to-wishlist,
+.wc-tabs li.active a,
+.p-video a,
+.jas-filter a.selected,
+.jas-row .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab > a:focus,
+.jas-row .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab > a:hover,
+.jas-row .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab.vc_active > a {
+    border-color: #222;
+}
+
+mark,
+.signup-newsletter-form input.submit-btn,
+.error-404.not-found a:hover,
+.more-link:hover,
+.widget h4.widget-title:after,
+.widget .woocommerce-product-search input[type="submit"],
+.widget .search-form .search-submit,
+.woocommerce .widget_layered_nav ul.yith-wcan-label li a:hover,
+.woocommerce-page .widget_layered_nav ul.yith-wcan-label li a:hover,
+.woocommerce .widget_layered_nav ul.yith-wcan-label li.chosen a,
+.woocommerce-page .widget_layered_nav ul.yith-wcan-label li.chosen a,
+.jas-mini-cart .button,
+.btn-quickview:hover,
+.tab-heading:after,
+.product-extra-title h2:before,
+.product-extra-title h2:after,
+.section-title:before,
+.section-title:after {
+    background-color: #222;
+}
+
+body {
+    background-color: #fff
+}
+
+body {
+    color: #878787
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #222
+}
+
+.jas-socials a,
+.header-text,
+.header__top .jas-action a {
+    color: #878787;
+}
+
+.jas-menu > li > a,
+#jas-mobile-menu ul > li:hover > a,
+#jas-mobile-menu ul > li.current-menu-item > a,
+#jas-mobile-menu ul > li.current-menu-parent > a,
+#jas-mobile-menu ul > li.current-menu-ancestor > a,
+#jas-mobile-menu ul > li:hover > .holder,
+#jas-mobile-menu ul > li.current-menu-item > .holder,
+#jas-mobile-menu ul > li.current-menu-parent > .holder,
+#jas-mobile-menu ul > li.current-menu-ancestor > .holder,
+.jas-action a {
+    color: #222;
+}
+
+.jas-menu li > a:hover,
+.jas-menu li.current-menu-ancestor > a,
+.jas-menu li.current-menu-item > a,
+.jas-account-menu a:hover,
+.jas-action a:hover {
+    color: #56cfe1;
+}
+
+.jas-menu ul a,
+.jas-account-menu ul a {
+    color: #878787;
+}
+
+.jas-menu ul li a:hover {
+    color: #222;
+}
+
+.jas-menu ul,
+.jas-account-menu ul {
+    background: rgba(255, 255, 255, 0.95);
+}
+
+#jas-footer {
+    background: #f6f6f8;
+}
+
+#jas-footer {
+    color: #878787;
+}
+
+.footer__top a,
+.footer__bot a {
+    color: #878787;
+}
+
+.footer__top .widget-title {
+    color: #222;
+}
+
+.footer__top a:hover,
+.footer__bot a:hover {
+    color: #56cfe1;
+}
+
+.single-product.postid-5532 .jas-container {
+    width: 100%;
+    padding: 0 30px;
+}
+
+.sidebar .widget.yith-woocommerce-ajax-product-filter ul li:before {
+    content: none;
+}
+
+.sidebar .widget.yith-woocommerce-ajax-product-filter ul li {
+    padding-left: 0;
+}
+
+.jas-carousel {
+    transition: none;
+}
